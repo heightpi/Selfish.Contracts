@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D0B2E51-1B6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selfish.Contracts", "src\Selfish.Contracts\Selfish.Contracts.csproj", "{0A1C8BB0-5734-404D-97AE-AD7429204F70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{89BA4F4F-492A-411D-B799-CD3057C724E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selfish.Contracts.Tests", "tests\Selfish.Contracts.Tests\Selfish.Contracts.Tests.csproj", "{424E7950-07E4-4CEC-B785-C9F4904B885A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,21 @@ Global
 		{0A1C8BB0-5734-404D-97AE-AD7429204F70}.Release|x64.Build.0 = Release|Any CPU
 		{0A1C8BB0-5734-404D-97AE-AD7429204F70}.Release|x86.ActiveCfg = Release|Any CPU
 		{0A1C8BB0-5734-404D-97AE-AD7429204F70}.Release|x86.Build.0 = Release|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Debug|x64.Build.0 = Debug|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Debug|x86.Build.0 = Debug|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Release|x64.ActiveCfg = Release|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Release|x64.Build.0 = Release|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Release|x86.ActiveCfg = Release|Any CPU
+		{424E7950-07E4-4CEC-B785-C9F4904B885A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0A1C8BB0-5734-404D-97AE-AD7429204F70} = {6D0B2E51-1B63-45A6-BDB2-1228FA38F927}
+		{424E7950-07E4-4CEC-B785-C9F4904B885A} = {89BA4F4F-492A-411D-B799-CD3057C724E9}
 	EndGlobalSection
 EndGlobal
