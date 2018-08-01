@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Selfish.Contracts</PackageId>
-    <Version>2.2.0.1</Version>
+    <Version>2.2.1</Version>
     <Authors>Selfish</Authors>
     <Company>Selfish</Company>
   </PropertyGroup>
