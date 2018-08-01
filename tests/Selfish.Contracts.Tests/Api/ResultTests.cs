@@ -17,5 +17,11 @@ namespace Selfish.Contracts.Tests.Api {
             var result = new Result (givenSuccess);
             result.Success.Should ().Be (givenSuccess);
         }
+
+        [Fact]
+        public void Contstructor_Initializes_Messages_Property () {
+            var result = new Result ();
+            result.Messages.Should ().NotBeNull();
+        }
     }
 }

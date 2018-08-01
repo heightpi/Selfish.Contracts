@@ -2,11 +2,16 @@ using System.Collections.Generic;
 
 namespace Selfish.Contracts.Api {
     public class Result<T> {
+        private void InitFields(){
+            Messages = new List<Message>();
+        }
         public Result (bool success) {
+            InitFields();
             Success = success;
         }
 
         public Result () {
+            InitFields();
             Success = true;
         }
         public bool Success { set; get; }
